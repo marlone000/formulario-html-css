@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário 2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -33,11 +34,11 @@
             <label for="site"> Seu site</label>
             <input type="url" id="site" name="site" required>
             <label for="senha">Senha</label>
-            <input type="password" id="senha" name="senha" required>
+            <input type="password" id="senhas" name="senha" required>
         </div>
         <div>
             <label for="cor">Cor favorita</label>
-            <input type="number" id="cor" name="cor">
+            <input type="color" id="cor" name="cor">
         </div>
         <div>
             <label for="filhos">Quantidade de filhos</label>
@@ -55,12 +56,12 @@
                 <option value="PB">PB</option>
             </select>
         </div>
-        <div>
+        <div class="radio">
             <p>Grau de Estudo</p>
             <input type="radio" id="medio" name="grau_estudo" value="Ensino Médio">
             <label for="medio">Ensino Médio</label><br>
             <input type="radio" id="faculdade" name="grau_estudo" value="Ensino Superior">
-            <label for="faculdade">Ensino Superior</label>
+            <label for="faculdade">Ensino Superior</label><br>
             <input type="radio" id="mestrado" name="grau_estudo" value="mestrado">
             <label for="mestrado">Mestrado</label>
         </div>
